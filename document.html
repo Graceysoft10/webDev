@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+       document.write('here in the head') ;
+
+       document.write('<meta charset="UTF-8">');
+       document.write('<link href=styles.css>');
+   </script>
+</head>
+<body>
+    <script>
+        document.write("In tne body")
+        document.write("<h1>Hello World!</h1>");
+        var hourOfDay= 10;
+        var greeting= " ";
+        if(hourOfDay>4 && hourOfDay<12){
+            greeting = "Good Morning";
+            console.log(greeting);
+        }else if (hourOfDay >= 12 && hourOfDay < 18){
+            greeting = "Good Afternoon";
+            console.log(greeting)
+        }else{
+            greeting = "Good Evening";
+            console.log(greeting)
+        }
+        document.write(greeting,"<br>");
+        var artType = "PT";
+        var output = " ";
+
+        switch(artType){
+            case "PT":
+                output = "Painting";
+            break;
+            case "SC":
+                output = Sculpture;
+                break;
+            default:
+                output = "Other"
+        }
+        document.writeln(output)
+        var i = 1, n = 5;
+        while(i<=n){
+            console.log(i)
+            i+=1;
+        }
+        console.log("-----------")
+        var i = 1, n = 5;
+        do{
+            console.log(i);
+            i++;
+         }while(i<=n)
+
+         var sum = 0, start = 0, end = 5;
+         while(start <= end){
+         var number = parseInt(prompt("Enter number:"))
+         sum+=number;
+         start++;
+        
+        if (number < 0){
+            
+            break;
+        }
+            console.log(sum)
+         
+        }
+        
+           
+    
+
+        
+
+    </script>
+</body>
+</html>
