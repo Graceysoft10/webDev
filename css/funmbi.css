@@ -1,0 +1,50 @@
+.cart{
+    background-color:rgb(255, 8, 160);
+    width: 20%;
+    text-align: center;
+    padding: 6px;
+    box-shadow: 2px 8px 7px 0 rgba(59, 48, 56, 0.4), 2px 5px 8px 0 rgba(32, 25, 30, 0.4);
+}
+.myClass1{
+    background-color: rgb(105, 200, 255);
+    padding: 6px;
+    margin-top: 5%;
+}
+.myClass2{
+    padding: 5px;
+   
+}
+.cart2{
+    background-color:rgb(255, 8, 160);
+    /* background-color: lightsalmon; */
+    width: 20%;
+    margin-top: 2%;
+    text-align: center;
+    padding: 6px;
+   box-shadow: 2px 8px 7px 0 rgba(59, 48, 56, 0.4), 2px 5px 8px 0 rgba(32, 25, 30, 0.4); 
+
+}
+.myClass3{
+    background-color: rgb(105, 200, 255);
+    margin-top: 5%;
+}
+.myClass4{
+    padding: 5px;
+    
+}
+.cart3{
+    background-color:rgb(255, 8, 160);
+    width:20%;
+    text-align: center;
+    padding: 6px;
+    margin-top: 2%;
+
+}
+.myClass5{
+    background-color:rgba(105, 200, 255) ;
+    margin-top: 2%;
+}
+.myClass6{
+    padding: 5px;
+    
+}
